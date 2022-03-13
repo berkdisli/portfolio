@@ -1,8 +1,8 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #0e0c0c;
-  background: #faab02;
+  color: #000000;
+  background: #ffffff;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -26,9 +26,12 @@ a {
 .githubacc {
   color: #149c9c;
 }
-
-.logo {
+.logo1 {
+  width: 55px;
+}
+.logo2 {
   width: 40px;
+  margin-bottom: 7px;
 }
 
 .navigation-list {
@@ -55,7 +58,7 @@ a {
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: #6792a6;
+  background-color: #187e80;
   opacity: 0;
   transition: opacity 300ms;
 }
@@ -75,14 +78,15 @@ a {
 
 #name {
   text-align: center;
-  background-image: url(https://media.giphy.com/media/3oEdv1GbekAakxXO8g/giphy.gif);
+  background-image: url(https://media.giphy.com/media/t2aAdTgnU9Ie6jvG0W/giphy.gif);
   background-size: cover;
   color: transparent;
   background-clip: text;
   -moz-background-clip: text; /* Firefox */
   -webkit-background-clip: text; /* Chrome, Safari */
-  font-size: 11vmin;
-  padding: 50px;
+  font-size: 8vmin;
+  padding: 60px;
+  padding-bottom: 0;
 }
 
 #home {
@@ -94,31 +98,30 @@ a {
 
 .profile__portrait {
   border-radius: 20%;
-  width: 300px;
+  width: 400px;
   height: auto;
-  border: solid black;
   margin: 23px;
 }
 
 .web_developer {
   color: white;
-  background: #0e0c0c;
+  background: #000000;
   font-family: sans-serif;
 }
 
 .proj-contact {
-  color: #187e80;
+  color: #07a77f;
 }
 
 #article2-index a,
 .about_me_skills a {
-  border-bottom: solid 0px #6792a6;
+  border-bottom: solid 0px #187e80;
   transition: border-bottom 0.2s;
 }
 
 #article2-index a:hover,
 .about_me_skills a:hover {
-  border-bottom: solid 0.2em #6792a6;
+  border-bottom: solid 0.2em #187e80;
 }
 
 .about_me_introduction ul {
@@ -170,7 +173,7 @@ a {
 }
 
 .project-list__item {
-  background-color: #0e0c0c;
+  background-color: #000000;
   color: #dfc8b5;
   box-shadow: 5px 5px 5px black;
   transition: 0.5s;
@@ -226,7 +229,7 @@ text {
 
 #about_me,
 #contact {
-  background: #0e0c0c;
+  background: #000000;
   color: #dfc8b5;
 }
 
@@ -263,14 +266,14 @@ text {
 }
 
 .sidemenu-item {
-  color: #f1f1f1;
+  color: #187e80;
 }
 
 #topButton {
   display: none;
   position: fixed;
   opacity: 0.5;
-  color: white;
+  color: #ffffff;
   bottom: 20px;
   right: 30px;
   z-index: 103;
