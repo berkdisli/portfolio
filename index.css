@@ -84,17 +84,6 @@ a {
   padding-top: 0;
 }
 
-#name {
-  background-image: url(https://media.giphy.com/media/t2aAdTgnU9Ie6jvG0W/giphy.gif);
-  background-size: cover;
-  color: transparent;
-  background-clip: text;
-  -moz-background-clip: text; /* Firefox */
-  -webkit-background-clip: text; /* Chrome, Safari */
-  padding: 60px;
-  padding-bottom: 0;
-}
-
 #welcome {
   background-image: url(https://media.giphy.com/media/t2aAdTgnU9Ie6jvG0W/giphy.gif);
   background-size: cover;
@@ -113,13 +102,14 @@ a {
 }
 
 .web_developer {
-  color: white;
+  color: rgb(255, 255, 255);
   background: #000000;
   font-family: sans-serif;
 }
 
 .proj-contact {
-  color: #07a77f;
+  color: #187e80;
+  font-weight: bold;
 }
 
 #article2-index a,
@@ -182,8 +172,8 @@ a {
 }
 
 .project-list__item {
-  background-color: #000000;
-  color: #dfc8b5;
+  background-color: #414040;
+  color: #e6e1de;
   box-shadow: 5px 5px 5px black;
   transition: 0.5s;
 }
@@ -217,14 +207,14 @@ a {
 }
 
 .button {
-  border: dashed 1px #6792a6;
+  border: dashed 1px #129a9c;
   border-radius: 5px;
   padding: 4px;
-  color: #187e80;
+  color: #129a9c;
 }
 
 .button:hover {
-  border: solid 1px #6792a6;
+  border: solid 1px #129a9c;
   transition: border 0.5s;
 }
 
@@ -241,10 +231,14 @@ text {
   margin-bottom: 3px;
 }
 
-#about_me,
+#about_me {
+  background: #414040;
+  color: #e6e1de;
+}
+
 #contact {
-  background: #000000;
-  color: #dfc8b5;
+  background-color: rgb(0, 0, 0);
+  color: #e6e1de;
 }
 
 .contact_details {
