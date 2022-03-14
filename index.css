@@ -19,7 +19,7 @@ br div {
 }
 
 a {
-  color: #187e80;
+  color: #020202;
   text-decoration: none;
 }
 
@@ -33,7 +33,9 @@ a {
   width: 40px;
   margin-bottom: 7px;
 }
-
+.page-header {
+  background-color: rgb(232, 233, 232);
+}
 .navigation-list {
   list-style: none;
   text-align: center;
@@ -76,24 +78,31 @@ a {
   display: none;
 }
 
+#home {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+
 #name {
-  text-align: center;
   background-image: url(https://media.giphy.com/media/t2aAdTgnU9Ie6jvG0W/giphy.gif);
   background-size: cover;
   color: transparent;
   background-clip: text;
   -moz-background-clip: text; /* Firefox */
   -webkit-background-clip: text; /* Chrome, Safari */
-  font-size: 8vmin;
   padding: 60px;
   padding-bottom: 0;
 }
 
-#home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0;
+#welcome {
+  background-image: url(https://media.giphy.com/media/t2aAdTgnU9Ie6jvG0W/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  -moz-background-clip: text; /* Firefox */
+  -webkit-background-clip: text; /* Chrome, Safari */
+  font-size: 10vmin;
 }
 
 .profile__portrait {
@@ -211,11 +220,16 @@ a {
   border: dashed 1px #6792a6;
   border-radius: 5px;
   padding: 4px;
+  color: #187e80;
 }
 
 .button:hover {
   border: solid 1px #6792a6;
   transition: border 0.5s;
+}
+
+.media {
+  color: #187e80;
 }
 
 text {
@@ -270,8 +284,8 @@ text {
 }
 
 #topButton {
+  position: flex;
   display: none;
-  position: fixed;
   opacity: 0.5;
   color: #ffffff;
   bottom: 20px;
