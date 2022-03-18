@@ -1,12 +1,15 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Noto Sans Mono, monospace;
   color: #000000;
   background: #ffffff;
 }
 
 h1 {
   margin: 0;
+}
+
+h5 {
+  font-size: 15px;
 }
 
 br div {
@@ -198,7 +201,7 @@ a {
 }
 
 .chat {
-  width: 49%;
+  width: 48%;
 }
 
 .project-list .break {
@@ -213,7 +216,7 @@ a {
 }
 
 .button {
-  border: dashed 1px #129a9c;
+  border: transparent;
   border-radius: 5px;
   padding: 4px;
   color: #129a9c;
