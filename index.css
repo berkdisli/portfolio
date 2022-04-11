@@ -251,6 +251,11 @@ text {
   color: #e6e1de;
 }
 
+#impressum {
+  background-color: #414040;
+  color: #e6e1de;
+}
+
 .contact_details {
   display: flex;
   justify-content: space-evenly;
