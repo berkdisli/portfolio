@@ -35,7 +35,11 @@ a {
   color: #149c9c;
 }
 .logo {
-  width: 40px;
+  width: 25px;
+}
+.medium-logo {
+  width: 25px;
+  margin-bottom: 5px;
 }
 .page-header {
   background-color: rgb(232, 233, 232);
